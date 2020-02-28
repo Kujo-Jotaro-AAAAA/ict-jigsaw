@@ -1,0 +1,47 @@
+@BannerBGColor: rgb(242, 197, 3);
+
+.payButtom {
+	// position: fixed;
+	width: 100%;
+	height: 60px;
+	// bottom: 0px;
+	// z-index: 2;
+
+	.payBox {
+		width: 100%;
+		height: 100%;
+		background-color: #333;
+	}
+
+	.pay {
+		font-family: PingFangSC-Regular;
+		width: 80%;
+		height: 40px;
+		line-height: 40px;
+		top: 10px;
+		left: 10%;
+		text-align: center;
+		font-size: 20px;
+		color: #333;
+		background: @BannerBGColor;
+		box-shadow: 2px 4px 8px 0 rgba(0, 0, 0, 0.04);
+		border-radius: 45px;
+		position: absolute;
+		z-index: 3;
+
+		.sign {
+			// font-family: PingFangSC-Semibold Roboto-Bold;
+			font-family: PingFangSC-Regular;
+			font-weight: bold;
+			font-size: 19px;
+		}
+
+		.reciprocal {
+			// font-family: PingFangSC-Medium Roboto-Bold;
+			font-family: PingFangSC-Regular;
+			font-size: 14px;
+			position: absolute;
+			right: 25px;
+		}
+	}
+}

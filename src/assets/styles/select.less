@@ -1,0 +1,22 @@
+.areaCode {
+	width: 100%;
+	font-size: 10px;
+	line-height: normal;
+
+	:global {
+		.ant-select-selection {
+			border: none;
+			background-color: transparent;
+			height: 100%;
+
+			&:focus,
+			&:hover {
+				border-color: transparent;
+			}
+
+			.ant-select-selection__rendered {
+				padding-right: 0;
+			}
+		}
+	}
+}
