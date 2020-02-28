@@ -1,6 +1,6 @@
 {
   "name": "ict-jigsaw",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "ict use UI base components",
   "main": "index.ts",
   "scripts": {
