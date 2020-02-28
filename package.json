@@ -2,7 +2,7 @@
   "name": "ict-jigsaw",
   "version": "0.0.2",
   "description": "ict use UI base components",
-  "main": "index.ts",
+  "main": "./src/index.d.ts",
   "scripts": {
     "build": "webpack --mode=production --config ./build/webpack.config.js"
   },
@@ -12,12 +12,12 @@
   },
   "keywords": [
     "Typescript",
-    "Ui",
+    "UI",
     "React"
   ],
   "author": "Jotaro",
   "license": "ISC",
-  "types": "./types/index.d.ts",
+  "types": "./src/index.d.ts",
   "devDependencies": {
     "clean-webpack-plugin": "^3.0.0",
     "css-loader": "^3.4.2",
